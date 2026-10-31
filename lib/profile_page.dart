@@ -22,7 +22,7 @@ class ProfilePage extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Profil Pengguna'),
           centerTitle: true,
-          backgroundColor: const Color.fromARGB(255, 235, 19, 145),
+          backgroundColor: const Color.fromARGB(255, 235, 199, 19),
           foregroundColor: Colors.white,
         ),
         body: SingleChildScrollView(
@@ -33,7 +33,7 @@ class ProfilePage extends StatelessWidget {
          
               const CircleAvatar(
                 radius: 50,
-                backgroundColor: Color.fromARGB(255, 234, 62, 171),
+                backgroundColor: Color.fromARGB(255, 234, 197, 62),
                 child: Icon(Icons.person, size: 50, color: Colors.white),
               ),
               
@@ -71,7 +71,7 @@ class ProfilePage extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.symmetric(vertical: 12),
                 decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 240, 185, 208),
+                  color: const Color.fromARGB(255, 240, 239, 185),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Row(
@@ -108,7 +108,7 @@ class ProfilePage extends StatelessWidget {
                     elevation: 2,
                     margin: const EdgeInsets.symmetric(vertical: 6),
                     child: ListTile(
-                      leading: const Icon(Icons.work, color: Color.fromARGB(255, 235, 0, 153)),
+                      leading: const Icon(Icons.work, color: Color.fromARGB(255, 235, 204, 0)),
                       title: Text(experiences[index]),
                     ),
                   );
@@ -137,7 +137,7 @@ class StatItem extends StatelessWidget {
           style: const TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
-            color: Color.fromARGB(255, 228, 0, 156),
+            color: Color.fromARGB(255, 228, 175, 0),
           ),
         ),
         const SizedBox(height: 4),
