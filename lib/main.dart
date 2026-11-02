@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
       title: 'Aplikasi Profil',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.blueAccent,
+          seedColor: const Color.fromARGB(255, 255, 68, 243),
         ),
       ),
       home: const ProfilePage(),
