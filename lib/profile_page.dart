@@ -8,12 +8,13 @@ class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
 
   final String userName = 'Nabila Innas';
-  final String role = 'Mahasiswi Software Engineering';
+  final String role = 'Software Engineering';
 
   final List<String> experiences = const [
     'Admid HR - CV. Anugerah Maju Bersama',
     'Staff Digital Marketing - PT. Internusa Persada Elektrik',
     'Graphic Designer - PT. Anugerah Maju Bersama Indonesia',
+    'Administrasi - PT. Bhatini Mitra Jaya',
   ];
 
   @override
