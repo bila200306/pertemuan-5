@@ -7,7 +7,7 @@ class profile_avatar extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CircleAvatar(
                 radius: 50,
-                backgroundColor: Color.fromARGB(255, 234, 197, 62),
+                backgroundColor: Color.fromARGB(255, 228, 62, 234),
                 child: Icon(Icons.person, size: 50, color: Colors.white),
               );
   }

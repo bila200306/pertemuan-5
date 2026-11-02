@@ -20,7 +20,7 @@ class ProfileInfo extends StatelessWidget {
           'Mahasiswi Software Engineering',
           style: TextStyle(
             fontSize: 16,
-            color: Colors.grey[700],
+            color: const Color.fromARGB(255, 6, 6, 6),
           ),
           textAlign: TextAlign.center,
         ),
